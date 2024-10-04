@@ -8,7 +8,7 @@ counterBtn.addEventListener("click", () => {
         counter.innerText = `${count}`;
     } else {
         counter.innerHTML = "";
-        counter.innerHTML = `<img id="something" src="/public/scaryThing.png"/>`;
+        counter.innerHTML = `<img id="something" src="public/scaryThing.png"/>`;
     }
 });
 console.log("this sheit works");
