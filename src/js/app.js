@@ -11,3 +11,4 @@ counterBtn.addEventListener("click", () => {
         counter.innerHTML = `<img id="something" src="/public/scaryThing.png"/>`;
     }
 });
+// test
