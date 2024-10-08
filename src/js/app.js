@@ -7,8 +7,6 @@ counterBtn.addEventListener("click", () => {
         count++;
         counter.innerText = `${count}`;
     } else {
-        counter.innerHTML = "";
-        counter.innerHTML = `<img id="something" src="/public/scaryThing.png"/>`;
+        alert("Wow, You did it!!! *Praise*");
     }
 });
-console.log("this sheit works");
